@@ -1,0 +1,48 @@
+#header{}
+
+#logo-img{
+	float:left;
+	}
+
+#user-img{
+	float: right;
+/*	clear: left*/
+	}
+
+#menu-calendar{
+	float: left;
+	width: 20%;
+	height: 256px;
+/*	clear: both;*/
+	}
+
+#cale{
+	width:75%;
+	float: left;
+	}
+
+#footer{
+/*	width:100%;*/
+	text-align: left;
+	}
+
+#footer-img{
+	float: left;
+	width:128px;
+	height:64px;
+	}
+
+#about{
+
+}
+.margenes{
+	margin: 1px;
+	border-style: solid;
+	border-color: blue;
+	}
+
+.clearu{
+	clear:both;
+	}
+
+
