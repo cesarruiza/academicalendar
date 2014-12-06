@@ -9,6 +9,69 @@
 /*	clear: left*/
 	}
 
+/*menu*/
+#main-menu ul
+{
+    font-family: Arial, Verdana;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#main-menu ul li
+{
+    display: block;
+    position: relative;
+    float: left;
+}
+
+#main-menu li ul
+{
+    display: none;
+}
+
+#main-menu ul li a 
+{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+    padding: 5px 15px 5px 15px;
+    background: #2C5463;
+    margin-left: 1px;
+    white-space: nowrap;
+}
+
+#main-menu ul li a:hover 
+{
+    background: #617F8A;
+}
+
+#main-menu li:hover ul 
+{
+    display: block;
+    position: absolute;
+}
+
+#main-menu li:hover li
+{
+    float: none;
+    font-size: 11px;
+}
+
+#main-menu li:hover a 
+{
+    background: #617F8A;
+}
+
+#main-menu li:hover li a:hover 
+{
+    background: #95A9B1;
+}
+
+/*menu*/
+
 #menu-calendar{
 	float: left;
 	width: 20%;
@@ -34,6 +97,11 @@
 
 #about{
 
+}
+
+#login{
+	width:33%;
+	margin:auto;
 }
 .margenes{
 	margin: 1px;
