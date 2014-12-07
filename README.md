@@ -1,4 +1,4 @@
 Calendario academico
 Proyecto Sena
 
-fullcalendar ya esta en el repo asi que no hay es necesario descargalo aparte
+fullcalendar ya esta en el repo asi que no es necesario descargalo aparte
